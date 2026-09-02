@@ -1,0 +1,22 @@
+transaction_id,customer_id,amount,payment_date,payment_status,settlement_id,settled_amount,settlement_date,settlement_status,our_status,expected_status,accuracy_check
+T061,C061,5000.0,2026-08-31,Success,S061,4900.0,2026-09-01,Settled,Amount Mismatch,Amount Mismatch,Match
+T062,C062,2500.0,2026-08-31,Success,S062,2400.0,2026-09-01,Settled,Amount Mismatch,Amount Mismatch,Match
+T063,C063,1000.0,2026-08-31,Success,S063,900.0,2026-09-01,Settled,Amount Mismatch,Amount Mismatch,Match
+T064,C064,5000.0,2026-08-31,Success,S064,4900.0,2026-09-01,Settled,Amount Mismatch,Amount Mismatch,Match
+T065,C065,1250.0,2026-08-31,Success,S065,1150.0,2026-09-01,Settled,Amount Mismatch,Amount Mismatch,Match
+T066,C066,1000.0,2026-08-31,Success,S066,900.0,2026-09-01,Settled,Amount Mismatch,Amount Mismatch,Match
+T067,C067,5000.0,2026-08-31,Success,S067,4900.0,2026-09-01,Settled,Amount Mismatch,Amount Mismatch,Match
+T068,C068,1000.0,2026-08-31,Success,S068,900.0,2026-09-01,Settled,Amount Mismatch,Amount Mismatch,Match
+T069,C069,250.0,2026-08-31,Success,S069,150.0,2026-09-01,Settled,Amount Mismatch,Amount Mismatch,Match
+T070,C070,1250.0,2026-08-31,Success,S070,1150.0,2026-09-01,Settled,Amount Mismatch,Amount Mismatch,Match
+T071,C071,2500.0,2026-09-01,Success,,,,,Missing Settlement,Missing Settlement,Match
+T072,C072,500.0,2026-09-01,Success,,,,,Missing Settlement,Missing Settlement,Match
+T073,C073,1250.0,2026-09-01,Success,,,,,Missing Settlement,Missing Settlement,Match
+T074,C074,500.0,2026-09-01,Success,,,,,Missing Settlement,Missing Settlement,Match
+T075,C075,2000.0,2026-09-01,Success,,,,,Missing Settlement,Missing Settlement,Match
+T076,C076,1250.0,2026-09-01,Success,,,,,Missing Settlement,Missing Settlement,Match
+T077,C077,1000.0,2026-09-01,Success,,,,,Missing Settlement,Missing Settlement,Match
+T078,C078,750.0,2026-09-01,Success,,,,,Missing Settlement,Missing Settlement,Match
+T901,,,,,S098,1800.0,2026-09-02,Settled,Unrecognized Settlement,,Mismatch
+T902,,,,,S099,2750.0,2026-09-02,Settled,Unrecognized Settlement,,Mismatch
+T903,,,,,S100,4200.0,2026-09-02,Settled,Unrecognized Settlement,,Mismatch
